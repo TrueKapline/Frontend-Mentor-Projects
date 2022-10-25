@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-single-price-component-PUeFDCLMZs)
-- [Live site URL](http://kapline.me/single-price-grid-component-master/)
+- [Live site URL](https://remarkable-faun-beb415.netlify.app/)
 
 ## My process
 

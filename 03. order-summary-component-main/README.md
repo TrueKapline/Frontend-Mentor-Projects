@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/adaptive-flexbox-order-summary-component-8Pm0YsKPv-)
-- [Live site URL](http://kapline.me/order-summary-component-main/)
+- [Live site URL](https://scintillating-pothos-03b719.netlify.app/)
 
 ## My process
 

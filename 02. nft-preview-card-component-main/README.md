@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/flexbox-nft-card-component-ewl0xkoMAP)
-- [Live site URL](http://kapline.me/nft-preview-card-component-main/)
+- [Live site URL](https://chipper-swan-0936ea.netlify.app/)
 
 ## My process
 

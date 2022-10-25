@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-html-css-scss-js-4gHFoJmsCh)
-- [Live site URL](https://base-apparel-coming-soon-master-nu-eight.vercel.app/)
+- [Live site URL](https://iridescent-manatee-bbf0ce.netlify.app/)
 
 ## My process
 

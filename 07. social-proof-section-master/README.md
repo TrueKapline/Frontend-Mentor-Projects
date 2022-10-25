@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub/responsive-social-proof-section-bWm5lyw_eK)
-- [Live site URL](https://social-proof-section-master-jet.vercel.app/)
+- [Live site URL](https://flourishing-lollipop-9d6ffb.netlify.app/)
 
 ## My process
 

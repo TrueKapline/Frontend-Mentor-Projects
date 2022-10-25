@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-y6TSNTbuxK)
-- [Live site URL](http://kapline.me/3-column-preview-card-component-main/)
+- [Live site URL](https://steady-heliotrope-cb4fb8.netlify.app/)
 
 ## My process
 

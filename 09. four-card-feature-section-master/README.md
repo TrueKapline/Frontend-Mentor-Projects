@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-aA6r-cI-RE)
-- [Live site URL](http://kapline.me/four-card-feature-section-master/)
+- [Live site URL](https://quiet-dragon-54a22c.netlify.app/)
 
 ## My process
 

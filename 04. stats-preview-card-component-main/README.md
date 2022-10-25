@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-flexbox-stats-preview-component-4Efxp59KAf)
-- [Live site URL](http://kapline.me/stats-preview-card-component-main/)
+- [Live site URL](https://candid-melba-171c71.netlify.app/)
 
 ## My process
 

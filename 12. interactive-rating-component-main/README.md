@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-AAZjN_zCkM)
-- [Live site URL](http://kapline.me/interactive-rating-component-main/)
+- [Live site URL](https://astonishing-zuccutto-a493d8.netlify.app/)
 
 ## My process
 

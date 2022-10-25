@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/flexbox-profile-card-component-SulrXy2_it)
-- [Live site URL](http://kapline.me/profile-card-component-main/)
+- [Live site URL](https://tourmaline-ganache-f5200b.netlify.app/)
 
 ## My process
 

@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-flexbox-product-preview-card-39hMBv_vpQ)
-- [Live site URL](http://kapline.me/product-preview-card-component-main/)
+- [Live site URL](https://dancing-faloodeh-25afd9.netlify.app/)
 
 ## My process
 

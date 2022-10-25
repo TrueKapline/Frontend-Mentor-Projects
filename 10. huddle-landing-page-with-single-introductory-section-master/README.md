@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-cuaDW1Snle)
-- [Live site URL](http://kapline.me/huddle-landing-page-with-single-introductory-section-master/)
+- [Live site URL](https://ubiquitous-chimera-31e774.netlify.app/)
 
 ## My process
 

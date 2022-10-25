@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-jYzkT7YsBv)
-- [Live site URL](https://ping-coming-soon-page-master-fr4gfmcv6-truekapline.vercel.app/)
+- [Live site URL](https://superb-kataifi-a9747d.netlify.app/)
 
 ## My process
 
