@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+<main>
+    <!-- Rating state start -->
+    <section class="rating__state">
+
+        <div class="circle__bg">
+            <img src="images/icon-star.svg" alt="" class="star__img">
+        </div>
+
+        <h1 class="rating__header">How did we do?</h1>
+
+        <p class="rating__text">Please let us know how we did with your support request. All feedback is appreciated to
+                                help us improve our offering!</p>
+
+        <form action="#" class="rating__buttons">
+            <input type="radio" name="rating" id="first" value="1">
+            <label for="first">1</label>
+
+            <input type="radio" name="rating" id="second" value="2">
+            <label for="second">2</label>
+
+            <input type="radio" name="rating" id="third" value="3">
+            <label for="third">3</label>
+
+            <input type="radio" name="rating" id="fourth" value="4">
+            <label for="fourth">4</label>
+
+            <input type="radio" name="rating" id="fifth" value="5">
+            <label for="fifth">5</label>
+        </form>
+
+        <form action="#">
+            <button type="button">Submit</button>
+        </form>
+    </section>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <section class="gratitude__state">
+        <img src="images/illustration-thank-you.svg" alt="Thank you image">
+
+        <div class="text__wrapper">
+            <p class="rating__selected">You selected 4 out of 5</p>
+        </div>
+
+        <h1 class="gratitude__header">Thank you!</h1>
+
+        <p class="gratitude__text">We appreciate you taking the time to give a rating. If you ever need more support,
+                                    don’t hesitate to get in touch!</p>
+    </section>
+    <!-- Thank you state end -->
+</main>
+
+<footer class="attribution">
+    <p class="attr_text">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend
+                                                                                                         Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/TrueKapline" target="_blank" rel="noopener">Kapline</a>.
+    </p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: hsl(225, 100%, 94%) url("images/pattern-background-desktop.svg") no-repeat;
+    background-size: contain;
+    height: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 15px hsl(245, 83%, 68%, 10%);
+    overflow: hidden;
+}
+
+.body {
+    padding: 46px 48px 48px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 28px;
+    color: hsl(223, 47%, 23%);
+}
+
+.description {
+    max-width: 354px;
+    margin-top: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+}
+
+.plan_card {
+    margin-top: 20px;
+    width: 304px;
+    padding: 25px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.music_icon {
+    width: 48px;
+    height: 48px;
+}
+
+.plan_info {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 700;
+    width: 93px;
+    color: hsl(223, 47%, 23%);
+    letter-spacing: -0.011em;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    letter-spacing: -0.015em;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+.change_button {
+    margin-left: auto;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    transition: 400ms cubic-bezier(.5,0,0,1);
+    transition-property: color, text-decoration-color;
+}
+
+button {
+    padding: 0;
+    margin-top: 32px;
+    width: 354px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 100%, 100%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.015em;
+    font-weight: 700;
+    transition: background-color 400ms cubic-bezier(.5,0,0,1);
+    box-shadow: 0 20px 25px 5px hsl(245, 75%, 52%, 15%);
+}
+
+.cancel_button {
+    margin-top: 32px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    transition: 400ms cubic-bezier(.5,0,0,1);
+    transition-property: color;
+}
+
+.change_button:hover {
+    text-decoration-color: transparent;
+    color: hsl(245, 83%, 68%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(245, 83%, 68%);
+}
+
+.cancel_button:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 30px;
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(245, 75%, 52%);
+}
+
+@media (max-width: 600px) {
+    body {
+        background: hsl(225, 100%, 94%) url("images/pattern-background-mobile.svg") no-repeat;
+        background-size: contain;
+    }
+
+    .main_image {
+        width: 327px;
+        height: 160px;
+    }
+
+    .body {
+        padding: 32px 24px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .description {
+        max-width: 250px;
+        font-size: 15px;
+        line-height: 165%;
+        letter-spacing: 0.005em;
+    }
+
+    .plan_card {
+        margin-top: 24px;
+        width: 247px;
+        padding: 16px;
+    }
+
+    h2 {
+        font-size: 15px;
+        letter-spacing: -0.02em;
+    }
+
+    .price {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+
+    .change_button {
+        margin-left: auto;
+        font-size: 13px;
+    }
+
+    button {
+        margin-top: 24px;
+        width: 279px;
+    }
+
+    .cancel_button {
+        margin: 24px 0 0 0;
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+}

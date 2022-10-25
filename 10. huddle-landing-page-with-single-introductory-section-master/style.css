@@ -1,0 +1,239 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    position: relative;
+    background-color: var(--violet);
+    background-image: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+}
+
+main {
+    margin-left: -21px;
+}
+
+.logo {
+    margin-top: 65px;
+    margin-left: -4px;
+    width: 20%;
+}
+
+.content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mockup {
+    max-width: 100%;
+}
+
+.text {
+    margin-left: 53px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -0.004em;
+    color: var(--white);
+    width: 482px;
+    margin-top: 43px;
+}
+
+p {
+    width: 511px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 100vmax;
+    border: none;
+    width: 200px;
+    height: 56px;
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--violet);
+    background-color: var(--white);
+    font-weight: 400;
+    font-size: 18px;
+    box-shadow: 0 4px 10px hsla(0, 0%, 0%, 0.25);
+    transition: 300ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color, background-color;
+}
+
+.social {
+    margin: 41px -15px 40px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.fa-brands {
+    color: var(--white);
+    border-radius: 100vmax;
+    border: 1px solid var(--white);
+    transition: 300ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: border-color, color;
+}
+
+.fa-facebook-f {
+    padding: 0.6em 0.9em;
+}
+
+.fa-twitter {
+    padding: 0.6em 0.7em;
+    margin: 0 16px 0;
+    font-size: 1em;
+}
+
+.fa-instagram {
+    padding: 0.45em 0.5em;
+    font-size: 1.27em;
+}
+
+button:hover {
+    background-color: var(--soft-magenta);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    border-color: var(--soft-magenta);
+    color: var(--soft-magenta);
+    cursor: pointer;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--white);
+}
+
+.attribution a {
+    color: var(--soft-magenta);
+}
+
+@media (max-width: 1441px) {
+    body {
+        background-size: auto;
+    }
+
+    .logo {
+        margin-top: 52px;
+        width: 17%;
+    }
+
+    .content {
+        margin-top: 80px;
+    }
+
+    .social {
+        margin: 21px -15px 40px 0;
+    }
+}
+
+@media (max-width: 1350px) {
+    body {
+        height: auto;
+        padding: 64px 74px 0;
+        background-image: url("images/bg-mobile.svg");
+        background-size: contain;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .logo {
+        margin-top: 0;
+        width: 43%;
+    }
+
+    .content {
+        flex-direction: column;
+        margin-top: 110px;
+    }
+
+    .text {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 48px;
+        width: 592px;
+        margin-top: 120px;
+    }
+
+    p {
+        text-align: center;
+        width: 600px;
+        font-size: 32px;
+        margin-top: 27px;
+    }
+
+    button {
+        width: 400px;
+        height: 80px;
+        margin-top: 48px;
+        font-size: 24px;
+    }
+
+    .social {
+        margin: 129px 0 120px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-brands {
+        border: 2px solid var(--white);
+    }
+
+    .fa-facebook-f {
+        padding: 0.6em 0.8em;
+        font-size: 1.5em;
+    }
+
+    .fa-twitter {
+        padding: 0.6em 0.6em;
+        margin: 0 22px 0;
+        font-size: 1.5em;
+    }
+
+    .fa-instagram {
+        padding: 0.45em 0.5em;
+        font-size: 1.8em;
+    }
+
+    .attr {
+        font-size: 24px;
+    }
+}
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+
+    --white: hsl(0, 0%, 100%);
+}

@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--very-dark-blue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rating__state {
+    border-radius: 29px;
+    background: radial-gradient(100% 100% at 50% 0%, var(--dark-blue) 0%, var(--darker-blue) 100%);
+    padding: 31px 38px 31px 31px;
+}
+
+.circle__bg {
+    width: 48px;
+    height: 48px;
+    border-radius: 100vmax;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -0.005em;
+}
+
+.rating__header {
+    margin-top: 32px;
+}
+
+p {
+    color: var(--light-grey);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    max-width: 341px;
+}
+
+.rating__text {
+    margin-top: 10px;
+}
+
+.rating__buttons {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    width: 51px;
+    height: 47px;
+    border-radius: 100vmax;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color, background-color;
+    user-select: none;
+    padding-top: 4px;
+}
+
+label:hover {
+    background-color: var(--light-grey);
+    color: var(--white);
+    cursor: pointer;
+}
+
+input:checked + label {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+button {
+    border: none;
+    border-radius: 100vmax;
+    background-color: var(--orange);
+    color: var(--white);
+    font-family: 'Overpass', sans-serif;
+    width: 341px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-top: 32px;
+    transition: 300ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color, background-color;
+    padding-top: 5px;
+}
+
+button:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.gratitude__state {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 35px 47px;
+    background: radial-gradient(100% 100% at 50% 0%, var(--dark-blue) 0%, var(--darker-blue) 100%);
+    border-radius: 29px;
+}
+
+.text__wrapper {
+    background-color: var(--dark-blue);
+    border-radius: 100vmax;
+    padding: 6px 18px 0;
+    margin-top: 32px;
+    height: 26px;
+}
+
+.rating__selected {
+    color: var(--orange);
+}
+
+.gratitude__header {
+    margin-top: 34px;
+}
+
+.gratitude__text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--light-grey);
+}
+
+.attribution a {
+    color: var(--white);
+    transition: 200ms cubic-bezier(0.33, 1, 0.68, 1);
+    transition-property: color;
+}
+
+.attribution a:hover {
+    color: var(--orange);
+}
+
+@media (max-width: 1441px) {
+    body {
+        height: auto;
+        margin-top: 196px;
+        justify-content: initial;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .rating__state {
+        border-radius: 17px;
+        padding: 24px 22px 32px 24px;
+    }
+
+    .circle__bg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .star__img {
+        width: 14px;
+        height: 13px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .rating__header {
+        margin-top: 19px;
+    }
+
+    p {
+        font-size: 14px;
+        max-width: 281px;
+    }
+
+    .rating__text {
+        margin-top: 11px;
+    }
+
+    label {
+        width: 42px;
+        height: 38px;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+
+    button {
+        width: 281px;
+        font-size: 14px;
+        margin-top: 24px;
+        padding-top: 5px;
+    }
+
+    .gratitude__state {
+        padding: 34px 17px 40px;
+        border-radius: 17px;
+    }
+
+    .text__wrapper {
+        padding: 6px 11px 0;
+        margin-top: 24px;
+    }
+
+    .gratitude__header {
+        margin-top: 27px;
+    }
+
+    .gratitude__text {
+        margin-top: 11px;
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+}
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --darker-blue: hsl(215, 27%, 12%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
